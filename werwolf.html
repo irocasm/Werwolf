@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Werwolf</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./icons/wolf.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./werwolf-data.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./icons/wolf.png" alt="" class="logo">
+        <h1>Werwolf</h1>
+        <nav>
+            <ul>
+            <li><a href="#set">Karten</a></li>
+            <li><a href="#players">Spieler</a></li>
+            <li><a href="#roles">Rollen</a></li>
+            <li><a href="#game">Spiel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="tab" id="set">
+        </form>
+        <div class="tab" id="players">
+            <!--<div class="player role">
+                <img src="./icons/witch.png" alt="Hexe" title="Hexe" class="icon">
+                <span class="potion poison">Player1</span>
+                <a href="javascript:change_role('Player1')">[Rolle]</a>
+                <a href="javascript:" class="disabled">[x]</a>
+            </div>
+            <div class="player role">
+                <img src="./icons/werewolf.png" alt="Werwolf" class="icon">
+                <span>Felix</span>
+                <a href="javascript:change_role('Felix')">[Rolle]</a>
+                <a href="javascript:" class="disabled">[x]</a>
+            </div>
+            <div class="player role">
+                <img src="./icons/norole.svg" alt="Keine Rolle" class="icon">
+                <span>Amelie</span>
+                <a href="javascript:change_role('Amelie')">[Rolle]</a>
+                <a href="javascript:delete_player('Amelie')">[x]</a>
+            </div>-->
+            <a class="add player" href="javascript:new_player()">
+                <img src="./icons/add_player.png" alt="" class="icon">[Neuer Spieler]
+            </a>
+        </div>
+        <div class="tab" id="roles">ROLES
+        </div>
+        <div class="tab" id="game">GAME
+        </div>
+        <div id="alert">
+            <form>
+                <div id="alert-text"></div>
+                <input id="alert-button" type="submit" value="OK" />
+            </form>
+        </div>
+        <div id="prompt">
+            <form>
+                <div id="prompt-text"></div>
+                <input type="text" id="prompt-input" /><br>
+                <input id="prompt-button" type="submit" value="OK" />
+                <input id="prompt-cancel" type="button" value="Abbrechen" />
+            </form>
+        </div>
+        <div id="choose-role">
+            <form>
+                <div id="choose-a-role">
+                <!--<div>
+                    <input type="radio" value="townsfolk" name="role" id="choose-townsfolk">
+                    <label for="choose-townsfolk" data-remaining="2">
+                        <img src="./icons/townsfolk.png" alt="Bürger" class="icon" />
+                        Bürger
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" value="werewolf" name="role" id="choose-werewolf">
+                    <label for="choose-werewolf" data-remaining="2">
+                        <img src="./icons/werewolf.png" alt="Werwolf" class="icon" />
+                        Werwolf
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" value="witch" name="role" id="choose-witch">
+                    <label for="choose-witch" data-remaining="1">
+                        <img src="./icons/witch.png" alt="Hexe" class="icon" />
+                        Hexe
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" value="cupid" name="role" id="choose-cupid">
+                    <label for="choose-cupid" data-remaining="0">
+                        <img src="./icons/cupid.png" alt="Amor" class="icon" />
+                        Amor
+                    </label>
+                </div>-->
+                </div>
+                <input id="choose-button" type="submit" value="OK" />
+                <input id="choose-cancel" type="button" value="Abbrechen" />
+            </form>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
