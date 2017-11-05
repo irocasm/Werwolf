@@ -87,8 +87,6 @@ function add_role(role, desc, elem, elem2) {
         set.set(role, s[role]);
         document.querySelector(`label[for="choose-${role}"]`).dataset.remaining = remaining.get(role);
         localStorage.setItem("set", JSON.stringify(Array.from(set.entries())));
-        console.log("change");
-        console.log(JSON.stringify(Array.from(set.entries())));
     });
     input.setAttribute("min", "0");
     let ddesc = document.createElement("a");

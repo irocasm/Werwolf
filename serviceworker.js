@@ -1,18 +1,18 @@
 let resources = [
-    '/werwolf.html',
-    '/style.css',
-    '/werwolf-data.js',
-    '/manifest.json',
-    '/icons/wolf.png',
-    '/icons/townsfolk.png',
-    '/icons/werewolf.png',
-    '/icons/witch.png',
-    '/icons/seer.png',
-    '/icons/cupid.png',
-    '/icons/harlot.png',
-    '/icons/add_player.png',
-    '/icons/norole.svg',
-    '/icons/Skull and Void.otf'
+    '/Werwolf/werwolf.html',
+    '/Werwolf/style.css',
+    '/Werwolf/werwolf-data.js',
+    '/Werwolf/manifest.json',
+    '/Werwolf/icons/wolf.png',
+    '/Werwolf/icons/townsfolk.png',
+    '/Werwolf/icons/werewolf.png',
+    '/Werwolf/icons/witch.png',
+    '/Werwolf/icons/seer.png',
+    '/Werwolf/icons/cupid.png',
+    '/Werwolf/icons/harlot.png',
+    '/Werwolf/icons/add_player.png',
+    '/Werwolf/icons/norole.svg',
+    '/Werwolf/icons/Skull and Void.otf'
 ];
 
 self.addEventListener('install', function(event) {
